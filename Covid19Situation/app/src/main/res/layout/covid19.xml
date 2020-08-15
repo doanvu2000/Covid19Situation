@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_stt"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Khu vực"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_orange"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Ca nhiễm"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_red"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Tử vong"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_green"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hồi phục"
+                android:textSize="19dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Thế giới"
+                android:textSize="22dp" />
+
+            <TextView
+                android:textColor="#DC8745"
+                android:id="@+id/tvCasesGlobal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:textColor="#F31B1B"
+                android:id="@+id/tvDeadthsGlobal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:textColor="#21E41C"
+                android:id="@+id/tvRecoveredGlobal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Việt Nam"
+                android:textSize="20dp" />
+
+            <TextView
+                android:textColor="#DC8745"
+                android:id="@+id/tvCasesVietNam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:textColor="#F31B1B"
+                android:id="@+id/tvDeadthsVietNam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:textColor="#21E41C"
+                android:id="@+id/tvRecoveredVietNam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progess"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>
